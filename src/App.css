@@ -11,6 +11,19 @@ h1, h5 {
   color: #0066ff; /* Bright primary color */
 }
 
+.navbar {
+  margin-bottom: 20px;
+}
+
+.hero-section {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   border: none; /* Clean borders */
   border-radius: 0.5rem; /* Slightly rounded corners for modern look */
@@ -39,4 +52,9 @@ h1, h5 {
 
 .lead {
   color: #666; /* Slightly lighter text for subtitles */
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
 }

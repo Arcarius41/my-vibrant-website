@@ -1,21 +1,22 @@
 /* src/App.css */
+/* Existing CSS */
 body {
-  background-color: #f4f7fa; /* Light background */
-  color: #333; /* Dark text for better contrast */
-  font-family: 'Roboto', sans-serif; /* Modern font */
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
 
-h1, h5 {
-  color: #0066ff; /* Bright primary color */
+/* Light Theme */
+.app.light {
+  background-color: #f4f7fa;
+  color: #333;
 }
 
-.navbar {
-  margin-bottom: 20px;
+.app.light .navbar-light {
+  background-color: #f8f9fa;
 }
 
-.hero-section {
+.app.light .hero-section {
   background: url('https://via.placeholder.com/1200x400') no-repeat center center;
   background-size: cover;
   height: 400px;
@@ -24,20 +25,62 @@ h1, h5 {
   align-items: center;
 }
 
+.app.light .card {
+  background-color: #fff;
+}
+
+.app.light .footer {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Dark Theme */
+.app.dark {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+}
+
+.app.dark .navbar-dark {
+  background-color: #333;
+}
+
+.app.dark .hero-section {
+  background: url('https://via.placeholder.com/1200x400/333') no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app.dark .card {
+  background-color: #333;
+}
+
+.app.dark .footer {
+  background-color: #333;
+  color: #f1f1f1;
+}
+
+/* Shared Styles */
+.hero-section .display-3, .hero-section .lead {
+  color: #fff;
+}
+
 .card {
-  border: none; /* Clean borders */
-  border-radius: 0.5rem; /* Slightly rounded corners for modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
-  transform: translateY(-5px); /* Subtle lift on hover */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .card-img-top {
-  border-radius: 0.5rem 0.5rem 0 0; /* Rounded corners only at the top */
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .btn-primary {
@@ -47,14 +90,17 @@ h1, h5 {
 }
 
 .btn-primary:hover {
-  background-color: #0056cc; /* Darken on hover */
-}
-
-.lead {
-  color: #666; /* Slightly lighter text for subtitles */
+  background-color: #0056cc;
 }
 
 footer {
-  background-color: #f8f9fa;
   padding: 20px 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+  margin-right: 1rem;
+}
+
+.navbar .btn {
+  margin-left: 15rem;
 }

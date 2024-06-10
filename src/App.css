@@ -9,13 +9,18 @@
 }
 
 .app.light .hero-section {
-  background: url('/images/hero.png') no-repeat center center;
-  background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.app.light .hero-image {
+  width: 100%;
+  max-width: 1550px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .app.light .hero-text {
@@ -44,13 +49,18 @@
 }
 
 .app.dark .hero-section {
-  background: url('/images/hero.png') no-repeat center center;
-  background-size: cover;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.app.dark .hero-image {
+  width: 100%;
+  max-width: 1550px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .app.dark .hero-text {
@@ -61,6 +71,12 @@
 
 .app.dark .card {
   background-color: #333;
+  color: #f1f1f1; /* Text color inside cards in dark mode */
+}
+
+.app.dark .card .card-title,
+.app.dark .card .card-text {
+  color: #f1f1f1; /* Ensuring the text is white for better visibility */
 }
 
 .app.dark .footer {

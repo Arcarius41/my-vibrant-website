@@ -17,12 +17,12 @@ function App() {
       <div className="hero-section">
         <img src="https://i.ibb.co/Dp9W3WC/Scott-B-Bowman.png" alt="Hero" className="hero-image" />
         <div className="hero-text">
-          <h1 className="display-3">Welcome to My Vibrant Website</h1>
-          <p className="lead">Creating clean, bright, and vibrant web experiences.</p>
+          {/* <h1 className="display-3">Welcome to My Vibrant Website</h1> */}
+          {/* <p className="lead">Creating clean, bright, and vibrant web experiences.</p> */}
         </div>
       </div>
       <div className="container py-5">
-        <h2 className="text-center">Our Services</h2>
+        <h2 className="text-center">Some of My Projects</h2>
         <div className="row">
           <div className="col-md-4">
             <div className="card">
@@ -38,7 +38,7 @@ function App() {
             <div className="card">
               <img src="https://i.ibb.co/GvVmbb9/Here-Is-Looking-At-U.jpg" className="card-img-top" alt="Service 2" />
               <div className="card-body">
-                <h5 className="card-title">Service 2</h5>
+                <h5 className="card-title">Portfolio Website</h5>
                 <p className="card-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a href="#" className="btn btn-primary">Learn More</a>
               </div>
@@ -48,7 +48,7 @@ function App() {
             <div className="card">
               <img src="https://i.ibb.co/DWCKcs5/Screenshot-2024-05-17-205930.png" className="card-img-top" alt="Service 3" />
               <div className="card-body">
-                <h5 className="card-title">Service 3</h5>
+                <h5 className="card-title">Java Application</h5>
                 <p className="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
                 <a href="#" className="btn btn-primary">Learn More</a>
               </div>

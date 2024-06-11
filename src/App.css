@@ -9,7 +9,8 @@
 }
 
 .app.light .hero-section {
-  height: 400px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +59,7 @@
 
 .app.dark .hero-image {
   width: 100%;
-  max-width: 1550px;
+  /* max-width: 1550px; */
   height: 400px;
   object-fit: cover;
 }
@@ -83,6 +84,11 @@
   background-color: #333;
   color: #f1f1f1;
 }
+
+/* .app.dark .footer h5,
+.app.dark .footer p {
+  color: #f1f1f1; 
+} */
 
 /* Shared Styles */
 .hero-section .display-3, .hero-section .lead {

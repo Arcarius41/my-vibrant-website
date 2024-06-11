@@ -15,7 +15,6 @@ function App() {
     <div className={`app ${theme}`}>
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       <div className="hero-section">
-        <img src="https://i.ibb.co/Dp9W3WC/Scott-B-Bowman.png" alt="Hero" className="hero-image" />
         <div className="hero-text">
           {/* <h1 className="display-3">Welcome to My Vibrant Website</h1> */}
           {/* <p className="lead">Creating clean, bright, and vibrant web experiences.</p> */}

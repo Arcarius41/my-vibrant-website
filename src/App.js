@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Contact from './Contact';  // Import Contact component
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Contact /> {/* Add Contact component here */}
       <Footer />
     </div>
   );

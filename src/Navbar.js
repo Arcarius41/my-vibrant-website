@@ -16,13 +16,13 @@ function Navbar({ theme, toggleTheme }) {
               <a className="nav-link" href="#">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <a className="nav-link" href="#">I Stand Out</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Services</a>
+              <a className="nav-link" href="#">My Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact</a>
+              <a className="nav-link" href="#">Contact Me</a>
             </li>
           </ul>
           <button className="btn btn-outline-primary ml-80%" onClick={toggleTheme}>

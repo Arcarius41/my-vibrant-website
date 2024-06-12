@@ -20,7 +20,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://formspree.io/YOUR_FORM_ENDPOINT', {
+    const response = await fetch('https://formspree.io/f/xgeggklw', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

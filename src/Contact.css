@@ -1,30 +1,30 @@
+/* src/Contact.css */
 .contact-section {
-    padding: 50px 0;
-  }
-  
-  .contact-section .container {
-    max-width: 600px;
-  }
-  
-  .contact-section h2 {
-    margin-bottom: 30px;
-  }
-  
-  .contact-section .form-label {
-    font-weight: bold;
-  }
-  
-  .contact-section .btn-primary {
-    background-color: #0066ff;
-    border: none;
-  }
-  
-  .contact-section .btn-primary:hover {
-    background-color: #0056cc;
-  }
-  
-  .status-message {
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
+  padding: 50px 0;
+}
+
+.contact-section .container {
+  max-width: 600px;
+}
+
+.contact-section h2 {
+  margin-bottom: 30px;
+}
+
+.contact-section .form-label {
+  font-weight: bold;
+}
+
+.contact-section .btn-primary {
+  background-color: #0066ff;
+  border: none;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #0056cc;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-weight: bold;
+}

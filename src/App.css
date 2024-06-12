@@ -6,6 +6,7 @@
 
 .app.light .navbar-light {
   background-color: #f8f9fa;
+  border: 1px solid #000; /* Add black border */
 }
 
 .app.light .hero-section {
@@ -18,6 +19,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 1rem; /* Add this line */
 }
 
 .app.light .hero-text {
@@ -62,6 +64,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  margin-top: 1rem; /* Add this line */
 }
 
 .app.dark .hero-text {

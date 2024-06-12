@@ -30,7 +30,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center p-3 bg-dark text-white">
-        © 2023 My Vibrant Website
+        © 2024 My Vibrant Website
       </div>
     </footer>
   );

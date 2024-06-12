@@ -23,3 +23,8 @@
     background-color: #0056cc;
   }
   
+  .status-message {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  

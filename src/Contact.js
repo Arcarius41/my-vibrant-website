@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Contact.css';
 
-function Contact() {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     message: ''
   });
+
+  const [status, setStatus] = useState('');
 
   const handleChange = (e) => {
     setFormData({
@@ -16,16 +18,26 @@ function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission (e.g., send data to an API)
-    alert('Form submitted!');
-    // Reset form data
-    setFormData({
-      name: '',
-      email: '',
-      message: ''
+    const response = await fetch('https://formspree.io/YOUR_FORM_ENDPOINT', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
     });
+
+    if (response.ok) {
+      setStatus('Form submitted successfully!');
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      });
+    } else {
+      setStatus('Form submission failed. Please try again.');
+    }
   };
 
   return (
@@ -71,6 +83,7 @@ function Contact() {
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
+        {status && <p className="status-message">{status}</p>}
       </div>
     </div>
   );

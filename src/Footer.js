@@ -1,29 +1,33 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
-    <footer className="bg-light text-center text-lg-start">
+    <footer className="bg-light text-center text-lg-start text-dark">
       <div className="container p-4">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 className="text-uppercase">My Vibrant Website</h5>
-            <p>Creating visually stunning and vibrant web experiences.</p>
+            <FontAwesomeIcon icon={faLinkedin} size="2x" /> {/* Add your icon here */}
+            <FontAwesomeIcon icon={faGithub} size="2x" />
           </div>
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 className="text-uppercase">Links</h5>
             <ul className="list-unstyled mb-0">
               <li>
-                <a href="#" className="text-dark">Home</a>
+                <a href="/" className="text-dark">Home</a>
               </li>
               <li>
-                <a href="#" className="text-dark">About</a>
+                <a href="/" className="text-dark">About</a>
               </li>
               <li>
-                <a href="#" className="text-dark">Services</a>
+                <a href="/" className="text-dark">Services</a>
               </li>
               <li>
-                <a href="#" className="text-dark">Contact</a>
+                <a href="/" className="text-dark">Contact</a>
               </li>
             </ul>
           </div>

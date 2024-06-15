@@ -54,11 +54,13 @@ function App() {
                             mental health practices.
                           </p>
                           <div className="d-flex justify-content-center">
-                            <a href="https://github.com/Arcarius41/Albert_Derek_Scott-Mood-Journal" className="btn btn-primary">
-                            View Repo
+                            <a
+                              href="https://github.com/Arcarius41/Albert_Derek_Scott-Mood-Journal"
+                              className="btn btn-primary"
+                            >
+                              View Repo
                             </a>
                           </div>
-                          
                         </div>
                       </div>
                     </div>
@@ -80,10 +82,9 @@ function App() {
                           </p>
                           <div className="d-flex justify-content-center">
                             <a href="#" className="btn btn-primary">
-                            Learn More
+                              Learn More
                             </a>
                           </div>
-                          
                         </div>
                       </div>
                     </div>

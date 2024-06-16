@@ -3,7 +3,8 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Contact from "./Contact";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SerenityScribe from "./SerenityScribe";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -54,14 +55,12 @@ function App() {
                             mental health practices.
                           </p>
                           <div className="d-flex justify-content-center">
-                            <a
-                              href="https://github.com/Arcarius41/Albert_Derek_Scott-Mood-Journal"
+                            <Link
+                              to="/serenity-scribe"
                               className="btn btn-primary"
-                              target="_blank"
-                              rel="noopener noreferrer"
                             >
-                              View Repo
-                            </a>
+                              Learn More
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -131,6 +130,7 @@ function App() {
             }
           />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/serenity-scribe" element={<SerenityScribe />} />
         </Routes>
         <Footer />
       </div>

@@ -30,7 +30,7 @@ function Footer() {
                 <a href="/" className="text-dark">Services</a>
               </li>
               <li>
-                <a href="/" className="text-dark">Contact</a>
+                <a href="/contact" className="text-dark">Contact</a>
               </li>
             </ul>
           </div>

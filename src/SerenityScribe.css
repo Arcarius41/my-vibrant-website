@@ -1,0 +1,14 @@
+/* src/SerenityScribe.css */
+.project-details {
+    margin-top: 20px;
+  }
+  
+  .project-details h3 {
+    margin-top: 20px;
+  }
+  
+  .project-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  

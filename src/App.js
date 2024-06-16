@@ -1,17 +1,27 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Contact from "./Contact";
-import SerenityScribe from "./SerenityScribe";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import About from "./About"; // Make sure to import the About component
+import SerenityScribe from "./SerenityScribe"; // Make sure to import the SerenityScribe component
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [theme, setTheme] = useState("light");
 
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
+  }, []);
+
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    localStorage.setItem("theme", newTheme);
   };
 
   return (
@@ -32,8 +42,7 @@ function App() {
                 <div className="container py-5">
                   <h2 className="text-center project-heading">
                     Some of My Projects
-                  </h2>{" "}
-                  {/* Added class project-heading */}
+                  </h2>
                   <div className="row">
                     <div className="col-md-4">
                       <div className="card">
@@ -55,12 +64,12 @@ function App() {
                             mental health practices.
                           </p>
                           <div className="d-flex justify-content-center">
-                            <Link
-                              to="/serenity-scribe"
+                            <a
+                              href="/serenity-scribe"
                               className="btn btn-primary"
                             >
                               Learn More
-                            </Link>
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -83,12 +92,12 @@ function App() {
                           </p>
                           <div className="d-flex justify-content-center">
                             <a
-                              href="#"
-                              className="btn btn-primary"
+                              href="https://github.com/Arcarius41/Portfolio-Website"
                               target="_blank"
                               rel="noopener noreferrer"
+                              className="btn btn-primary"
                             >
-                              Learn More
+                              View Repo
                             </a>
                           </div>
                         </div>
@@ -114,9 +123,9 @@ function App() {
                           <div className="d-flex justify-content-center">
                             <a
                               href="https://github.com/Arcarius41/Scotts-Java-School-Management-System"
-                              className="btn btn-primary"
                               target="_blank"
                               rel="noopener noreferrer"
+                              className="btn btn-primary"
                             >
                               View Repo
                             </a>
@@ -130,6 +139,7 @@ function App() {
             }
           />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
           <Route path="/serenity-scribe" element={<SerenityScribe />} />
         </Routes>
         <Footer />

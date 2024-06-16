@@ -57,6 +57,8 @@ function App() {
                             <a
                               href="https://github.com/Arcarius41/Albert_Derek_Scott-Mood-Journal"
                               className="btn btn-primary"
+                              target="_blank"
+                              rel="noopener noreferrer"
                             >
                               View Repo
                             </a>
@@ -81,7 +83,12 @@ function App() {
                             responsive, single-page portfolio website.
                           </p>
                           <div className="d-flex justify-content-center">
-                            <a href="#" className="btn btn-primary">
+                            <a
+                              href="#"
+                              className="btn btn-primary"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
                               Learn More
                             </a>
                           </div>
@@ -109,6 +116,8 @@ function App() {
                             <a
                               href="https://github.com/Arcarius41/Scotts-Java-School-Management-System"
                               className="btn btn-primary"
+                              target="_blank"
+                              rel="noopener noreferrer"
                             >
                               View Repo
                             </a>

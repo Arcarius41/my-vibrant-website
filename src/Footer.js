@@ -1,8 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -11,8 +10,12 @@ function Footer() {
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
             <h5 className="text-uppercase">My Vibrant Website</h5>
-            <FontAwesomeIcon icon={faLinkedin} size="2x" /> {/* Add your icon here */}
-            <FontAwesomeIcon icon={faGithub} size="2x" />
+            <a href="https://www.linkedin.com/in/scott-b-bowman/" target="_blank" rel="noopener noreferrer" className="text-dark me-3">
+              <FontAwesomeIcon icon={faLinkedin} size="2x" />
+            </a>
+            <a href="https://github.com/Arcarius41/" target="_blank" rel="noopener noreferrer" className="text-dark">
+              <FontAwesomeIcon icon={faGithub} size="2x" />
+            </a>
           </div>
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 className="text-uppercase">Links</h5>

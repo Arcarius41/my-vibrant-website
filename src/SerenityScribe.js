@@ -2,8 +2,17 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './SerenityScribe.css';
+import ModalImage from 'react-modal-image';
 
 function SerenityScribe() {
+  const images = [
+    'https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png',
+    'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150',
+    'https://via.placeholder.com/150'
+  ];
+
   return (
     <div className="container py-5">
       <h2 className="text-center">Serenity Scribe Project</h2>
@@ -35,31 +44,16 @@ function SerenityScribe() {
         <div className="col-12">
           <h3 className="text-center">Photo Gallery</h3>
           <div className="d-flex justify-content-center flex-wrap">
-            <img
-              src="https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png"
-              alt="Gallery 1"
-              className="img-thumbnail m-2"
-            />
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Gallery 2"
-              className="img-thumbnail m-2"
-            />
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Gallery 3"
-              className="img-thumbnail m-2"
-            />
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Gallery 4"
-              className="img-thumbnail m-2"
-            />
-            <img
-              src="https://via.placeholder.com/150"
-              alt="Gallery 5"
-              className="img-thumbnail m-2"
-            />
+            {images.map((src, index) => (
+              <div key={index} className="m-2">
+                <ModalImage
+                  small={src}
+                  large={src}
+                  alt={`Gallery ${index + 1}`}
+                  className="img-thumbnail"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -31,6 +31,38 @@ function SerenityScribe() {
           You can explore the project's code and details on the <a href="https://github.com/Arcarius41/Albert_Derek_Scott-Mood-Journal" target="_blank" rel="noopener noreferrer">GitHub repository</a>.
         </p>
       </div>
+      <div className="row mt-5">
+        <div className="col-12">
+          <h3 className="text-center">Photo Gallery</h3>
+          <div className="d-flex justify-content-center flex-wrap">
+            <img
+              src="https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png"
+              alt="Gallery 1"
+              className="img-thumbnail m-2"
+            />
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Gallery 2"
+              className="img-thumbnail m-2"
+            />
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Gallery 3"
+              className="img-thumbnail m-2"
+            />
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Gallery 4"
+              className="img-thumbnail m-2"
+            />
+            <img
+              src="https://via.placeholder.com/150"
+              alt="Gallery 5"
+              className="img-thumbnail m-2"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,20 +1,22 @@
-# My Vibrant Website - Personal Portfolio
+# My Vibrant Website - Personal Profile
 
 **Technologies Used:**
-**Front-End:** Built with React for a dynamic and responsive user interface, styled using Bootstrap for a modern, clean look.
-**Routing:** Uses React Router for seamless navigation between different pages.
-**State Management:** Utilizes React's useState for managing theme toggling between light and dark modes.
-**Styling:** Combines CSS and Bootstrap to ensure a vibrant and visually appealing design across all devices.
-**Accessibility:** Implements ARIA labels and improved keyboard navigation for enhanced accessibility.
-**Icons:** Integrated with FontAwesome for sleek, professional icons.
-**Hosting:** Deployed using GitHub Pages for reliable and fast delivery.
+
+- **Front-End:** Built with React for a dynamic and responsive user interface, styled using Bootstrap for a modern, clean look.
+- **Routing:** Uses React Router for seamless navigation between different pages.
+- **State Management:** Utilizes React's useState for managing theme toggling between light and dark modes.
+- **Styling:** Combines CSS and Bootstrap to ensure a vibrant and visually appealing design across all devices.
+- **Accessibility:** Implements ARIA labels and improved keyboard navigation for enhanced accessibility.
+- **Icons:** Integrated with FontAwesome for sleek, professional icons.
+- **Hosting:** Deployed using GitHub Pages for reliable and fast delivery.
 
 **Features:**
-*Personal profile showcasing skills, projects, and contact information.
-*Dark and light mode toggle with persistent state across pages.
-*Detailed project pages with technology descriptions and image galleries.
-*Responsive design ensuring usability across various devices.
-*Secure and accessible design following industry standards.
+
+- Personal profile showcasing skills, projects, and contact information.
+- Dark and light mode toggle with persistent state across pages.
+- Detailed project pages with technology descriptions and image galleries.
+- Responsive design ensuring usability across various devices.
+- Secure and accessible design following industry standards.
 
 Explore the project on [My Vibrant Website](https://my-vibrant-website.vercel.app).
 

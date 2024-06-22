@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Contact from "./Contact";
-import About from "./About"; // Make sure to import the About component
-import SerenityScribe from "./SerenityScribe"; // Make sure to import the SerenityScribe component
+import About from "./About"; 
+import SerenityScribe from "./SerenityScribe"; 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -82,17 +82,13 @@ function App() {
                           alt="Service 2"
                         />
                         <div className="card-body">
-                          <h5 className="card-title">Portfolio Website</h5>
+                          <h5 className="card-title">My Vibrant Website</h5>
                           <p className="card-text">
-                            You are looking at the project in action. Click on
-                            the buttons in the navigation bar to scroll to the
-                            corresponding project card. This project implements
-                            the use of React, Bootstrap, and CSS to create a
-                            responsive, single-page portfolio website.
+                            A personal profile website showcasing my web development skills and projects. Built with React for a dynamic UI, Bootstrap for modern styling, and React Router for seamless navigation. It features light and dark modes with persistent state, accessibility enhancements, and is hosted on GitHub Pages.
                           </p>
                           <div className="d-flex justify-content-center">
                             <a
-                              href="https://github.com/Arcarius41/Portfolio-Website"
+                              href="https://github.com/Arcarius41/my-vibrant-website"
                               target="_blank"
                               rel="noopener noreferrer"
                               className="btn btn-primary"

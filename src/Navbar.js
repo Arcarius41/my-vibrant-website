@@ -16,6 +16,9 @@ function Navbar({ theme, toggleTheme }) {
               <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/about">About</Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/contact">Contact Me</Link>
             </li>
           </ul>

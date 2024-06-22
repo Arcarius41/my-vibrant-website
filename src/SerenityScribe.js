@@ -7,10 +7,10 @@ import ModalImage from 'react-modal-image';
 function SerenityScribe() {
   const images = [
     'https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150',
-    'https://via.placeholder.com/150'
+    'https://i.ibb.co/NxBKDXy/Screenshot-2024-06-22-011936.png',
+    'https://i.ibb.co/LP3TBzY/Screenshot-2024-06-22-031042.png',
+    'https://i.ibb.co/cDvZYjs/Screenshot-2024-06-22-031248.png',
+    'https://i.ibb.co/X4SKfg1/Screenshot-2024-06-22-031155.png'
   ];
 
   return (

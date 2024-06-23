@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Contact from "./Contact";
-import About from "./About"; 
-import SerenityScribe from "./SerenityScribe"; 
+import About from "./About";
+import SerenityScribe from "./SerenityScribe";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -84,7 +84,13 @@ function App() {
                         <div className="card-body">
                           <h5 className="card-title">My Vibrant Website</h5>
                           <p className="card-text">
-                            A personal profile website showcasing my web development skills and projects. Built with React for a dynamic UI, Bootstrap for modern styling, and React Router for seamless navigation. It features light and dark modes with persistent state, accessibility enhancements, and is hosted on GitHub Pages.
+                            You are test driving it right now. A personal
+                            profile website showcasing my web development skills
+                            and projects. Built with React for a dynamic UI,
+                            Bootstrap for modern styling, and React Router for
+                            seamless navigation. It features light and dark
+                            modes with persistent state, accessibility
+                            enhancements, and is hosted on GitHub Pages.
                           </p>
                           <div className="d-flex justify-content-center">
                             <a
@@ -93,7 +99,7 @@ function App() {
                               rel="noopener noreferrer"
                               className="btn btn-primary"
                             >
-                              View Repo
+                              See the ReadMe
                             </a>
                           </div>
                         </div>

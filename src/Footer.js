@@ -10,7 +10,7 @@ function Footer() {
       <div className="container p-4">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 className="text-uppercase">My Vibrant Website</h5>
+            <h5 className="text-uppercase">Connection Points</h5>
             <a
               href="https://www.linkedin.com/in/scott-b-bowman/"
               target="_blank"
@@ -56,7 +56,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center p-3 bg-dark text-white">
-        © 2024 My Vibrant Website
+        © 2024 Scott B Bowman
       </div>
     </footer>
   );

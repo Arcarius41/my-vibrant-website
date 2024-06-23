@@ -2,15 +2,31 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './SerenityScribe.css';
-import ModalImage from 'react-modal-image';
+import ImageGallery from 'react-image-gallery';
+import 'react-image-gallery/styles/css/image-gallery.css';
 
 function SerenityScribe() {
   const images = [
-    'https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png',
-    'https://i.ibb.co/NxBKDXy/Screenshot-2024-06-22-011936.png',
-    'https://i.ibb.co/LP3TBzY/Screenshot-2024-06-22-031042.png',
-    'https://i.ibb.co/cDvZYjs/Screenshot-2024-06-22-031248.png',
-    'https://i.ibb.co/X4SKfg1/Screenshot-2024-06-22-031155.png'
+    {
+      original: 'https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png',
+      thumbnail: 'https://i.ibb.co/SBrd9nk/Screenshot-2024-05-11-121650.png',
+    },
+    {
+      original: 'https://i.ibb.co/NxBKDXy/Screenshot-2024-06-22-011936.png',
+      thumbnail: 'https://i.ibb.co/NxBKDXy/Screenshot-2024-06-22-011936.png',
+    },
+    {
+      original: 'https://i.ibb.co/LP3TBzY/Screenshot-2024-06-22-031042.png',
+      thumbnail: 'https://i.ibb.co/LP3TBzY/Screenshot-2024-06-22-031042.png',
+    },
+    {
+      original: 'https://i.ibb.co/cDvZYjs/Screenshot-2024-06-22-031248.png',
+      thumbnail: 'https://i.ibb.co/cDvZYjs/Screenshot-2024-06-22-031248.png',
+    },
+    {
+      original: 'https://i.ibb.co/X4SKfg1/Screenshot-2024-06-22-031155.png',
+      thumbnail: 'https://i.ibb.co/X4SKfg1/Screenshot-2024-06-22-031155.png',
+    },
   ];
 
   return (
@@ -44,16 +60,7 @@ function SerenityScribe() {
         <div className="col-12">
           <h3 className="text-center">Photo Gallery</h3>
           <div className="d-flex justify-content-center flex-wrap">
-            {images.map((src, index) => (
-              <div key={index} className="m-2">
-                <ModalImage
-                  small={src}
-                  large={src}
-                  alt={`Gallery ${index + 1}`}
-                  className="img-thumbnail"
-                />
-              </div>
-            ))}
+            <ImageGallery items={images} />
           </div>
         </div>
       </div>

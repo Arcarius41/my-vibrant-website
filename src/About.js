@@ -54,9 +54,11 @@ function About() {
       </div>
       <div className="row mt-5">
         <div className="col-12">
-          <h3 className="text-center">Photo Gallery</h3>
+          <h3 className="text-center">Need a Day to Shake the Rust Off</h3>
           <div className="d-flex justify-content-center flex-wrap">
-            <img
+          <span className="badge bg-primary m-2">Java</span>
+          <span className="badge bg-primary m-2">C++</span>
+            {/* <img
               src="https://via.placeholder.com/150"
               alt="Gallery 1"
               className="img-thumbnail m-2"
@@ -80,8 +82,17 @@ function About() {
               src="https://via.placeholder.com/150"
               alt="Gallery 5"
               className="img-thumbnail m-2"
-            />
+            /> */}
           </div>
+          <div className="row mt-5">
+        <div className="col-12">
+          <h3 className="text-center">Learning</h3>
+          <div className="d-flex justify-content-center flex-wrap">
+            <span className="badge bg-primary m-2">Azure</span>
+            {/* <span className="badge bg-primary m-2">CSS</span> */}
+          </div>
+        </div>
+      </div>
         </div>
       </div>
     </div>

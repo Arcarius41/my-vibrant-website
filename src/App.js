@@ -90,7 +90,7 @@ function App() {
                             Bootstrap for modern styling, and React Router for
                             seamless navigation. It features light and dark
                             modes with persistent state, accessibility
-                            enhancements, and is hosted on GitHub Pages.
+                            enhancements, and is hosted on GitHub and Vercel.
                           </p>
                           <div className="d-flex justify-content-center">
                             <a

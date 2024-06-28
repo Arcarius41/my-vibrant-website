@@ -49,7 +49,7 @@ function App() {
                         <img
                           src="https://i.ibb.co/ws9dY0B/Screenshot-2024-06-15-serinityscribe-home-page.png"
                           className="card-img-top"
-                          alt="Service 1"
+                          alt="Project 1"
                         />
                         <div className="card-body">
                           <h5 className="card-title">
@@ -79,7 +79,7 @@ function App() {
                         <img
                           src="https://i.ibb.co/GvVmbb9/Here-Is-Looking-At-U.jpg"
                           className="card-img-top"
-                          alt="Service 2"
+                          alt="Project 2"
                         />
                         <div className="card-body">
                           <h5 className="card-title">My Vibrant Website</h5>
@@ -110,7 +110,7 @@ function App() {
                         <img
                           src="https://i.ibb.co/DWCKcs5/Screenshot-2024-05-17-205930.png"
                           className="card-img-top"
-                          alt="Service 3"
+                          alt="Project 3"
                         />
                         <div className="card-body">
                           <h5 className="card-title">Java Application</h5>

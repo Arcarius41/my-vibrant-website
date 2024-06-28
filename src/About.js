@@ -32,7 +32,7 @@ function About() {
         <div className="col-md-6 text-center">
           <img
             src="https://i.ibb.co/cb3cQ64/B-WPortrait.jpg"
-            alt="Your Name"
+            alt="Portrait of Scott Bowman"
             className="img-fluid rounded-circle mb-4"
           />
         </div>

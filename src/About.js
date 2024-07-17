@@ -12,7 +12,7 @@ function About() {
           <p>
             Hello! I'm a passionate web developer with a strong background in
             front-end and back-end technologies. My journey into full-stack
-            development started when I was introduced to HTML and, and I've been
+            development started when I was introduced to HTML, and I've been
             hooked ever since.
           </p>
           <p>

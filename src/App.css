@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url('https://i.ibb.co/Yf7rf1L/Scott-B-Bowman-1584-x-396-px-2.png');
+  background-image: url('./assets/images/hero.png');
   background-size: contain; /* Ensure the image is contained */
   background-repeat: no-repeat;
   background-position: center;
@@ -59,7 +59,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background-image: url('https://i.ibb.co/Yf7rf1L/Scott-B-Bowman-1584-x-396-px-2.png');
+  background-image: url('./assets/images/hero.png');
   background-size: contain; /* Ensure the image is contained */
   background-repeat: no-repeat;
   background-position: center;

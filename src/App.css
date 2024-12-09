@@ -10,37 +10,19 @@
 }
 
 .app.light .hero-section {
-  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  background-image: url('./assets/images/hero.png');
-  background-size: contain; /* Ensure the image is contained */
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 15px auto; /* Space from navbar */
 }
 
-.app.light .hero-text {
-  position: absolute;
-  text-align: center;
-  color: #fff;
+.app.light .hero-image {
   width: 100%;
-}
-
-.app.light .card {
-  background-color: #fff;
-}
-
-.app.light .footer {
-  background-color: #f8f9fa;
-  color: #333;
-}
-
-.app.light .footer h5,
-.app.light .footer p,
-.app.light .footer a {
-  color: #333; /* Ensuring the text and links are dark for better visibility */
+  max-width: 1200px;
+  height: auto;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  object-fit: cover; /* Ensures the image adapts proportionally */
 }
 
 /* Dark Theme */
@@ -54,48 +36,25 @@
 }
 
 .app.dark .hero-section {
-  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  background-image: url('./assets/images/hero.png');
-  background-size: contain; /* Ensure the image is contained */
-  background-repeat: no-repeat;
-  background-position: center;
+  margin: 15px auto; /* Space from navbar */
 }
 
-.app.dark .hero-text {
-  position: absolute;
-  text-align: center;
-  color: #fff;
+.app.dark .hero-image {
   width: 100%;
-}
-
-.app.dark .card {
-  background-color: #333;
-  color: #f1f1f1; /* Text color inside cards in dark mode */
-}
-
-.app.dark .card .card-title,
-.app.dark .card .card-text {
-  color: #f1f1f1; /* Ensuring the text is white for better visibility */
-}
-
-.app.dark .footer {
-  background-color: #333;
-  color: #f1f1f1;
-}
-
-.app.dark .footer h5,
-.app.dark .footer p,
-.app.dark .footer a {
-  color: #f1f1f1; /* Ensuring the text and links are white for better visibility */
+  max-width: 1200px;
+  height: auto;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Optional shadow */
+  object-fit: cover; /* Ensures the image adapts proportionally */
 }
 
 /* Shared Styles */
-.hero-section .display-3, .hero-section .lead {
-  color: #fff;
+.hero-section {
+  height: auto; /* Allow height to adapt to the image */
+  margin: 20px auto; /* Add consistent spacing */
 }
 
 .card {
@@ -103,6 +62,7 @@
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 1rem; /* Add spacing between stacked cards */
 }
 
 .card:hover {
@@ -142,20 +102,30 @@ footer {
 /* Media Queries */
 @media (max-width: 768px) {
   .app.light .hero-section, .app.dark .hero-section {
-    height: 300px; /* Reduce height for smaller screens */
+    margin: 10px auto;
   }
 
-  .app.light .hero-text, .app.dark .hero-text {
-    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  .app.light .hero-image, .app.dark .hero-image {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow for smaller screens */
+  }
+
+  .card-img-top {
+    height: 150px;
   }
 }
 
 @media (max-width: 576px) {
   .app.light .hero-section, .app.dark .hero-section {
-    height: 200px; /* Further reduce height for very small screens */
+    margin: 5px auto;
   }
 
-  .app.light .hero-text, .app.dark .hero-text {
-    font-size: 1rem; /* Adjust font size for very small screens */
+  .app.light .hero-image, .app.dark .hero-image {
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Further reduce shadow */
+  }
+
+  .card-img-top {
+    height: 100px;
   }
 }

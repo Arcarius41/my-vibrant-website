@@ -9,12 +9,14 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     if (savedTheme) {
       setTheme(savedTheme);
+    } else {
+      localStorage.setItem("theme", "dark");
     }
   }, []);
 
@@ -34,11 +36,13 @@ function App() {
             element={
               <>
                 <div className="hero-section">
-                  <div className="hero-text">
-                    {/* <h1 className="display-3">Welcome to My Vibrant Website</h1> */}
-                    {/* <p className="lead">Creating clean, bright, and vibrant web experiences.</p> */}
-                  </div>
+                  <img
+                    src={process.env.PUBLIC_URL + "/images/hero.png"}
+                    alt="Hero Section"
+                    className="hero-image"
+                  />
                 </div>
+
                 <div className="container py-5">
                   <h2 className="text-center project-heading">
                     Some of My Projects

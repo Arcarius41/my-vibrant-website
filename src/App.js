@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Contact from "./Contact";
 import About from "./About";
 import SerenityScribe from "./SerenityScribe";
+import UsKidsProjectImage from "./assets/images/UsKidsProject.png";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -48,7 +49,37 @@ function App() {
                     Some of My Projects
                   </h2>
                   <div className="row">
-                    <div className="col-md-4">
+                  <div className="col-md-3">
+                      <div className="card">
+                        <img
+                         src={UsKidsProjectImage}
+                          className="card-img-top"
+                          alt="Project 1"
+                        />
+                        <div className="card-body">
+                          <h5 className="card-title">
+                            Rockumentary
+                          </h5>
+                          <h6 className="card-title">React+Shopify Embed</h6>
+                          <p className="card-text">
+                            Platform that allows users to record their daily
+                            moods and journal entries. It aims to help users
+                            track their emotional well-being over time, offering
+                            insights and affirmations to encourage positive
+                            mental health practices.
+                          </p>
+                          <div className="d-flex justify-content-center">
+                            <a
+                              href="/serenity-scribe"
+                              className="btn btn-primary"
+                            >
+                              Learn More
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-3">
                       <div className="card">
                         <img
                           src="https://i.ibb.co/ws9dY0B/Screenshot-2024-06-15-serinityscribe-home-page.png"
@@ -78,7 +109,7 @@ function App() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                       <div className="card">
                         <img
                           src="https://i.ibb.co/GvVmbb9/Here-Is-Looking-At-U.jpg"
@@ -89,12 +120,12 @@ function App() {
                           <h5 className="card-title">My Vibrant Website</h5>
                           <p className="card-text">
                             You are test driving it right now. A personal
-                            profile website showcasing my web development skills
+                            website showcasing my web development skills
                             and projects. Built with React for a dynamic UI,
                             Bootstrap for modern styling, and React Router for
                             seamless navigation. It features light and dark
-                            modes with persistent state, accessibility
-                            enhancements, and is hosted on GitHub and Vercel.
+                            modes with persistent state and accessibility
+                            enhancements.
                           </p>
                           <div className="d-flex justify-content-center">
                             <a
@@ -109,7 +140,7 @@ function App() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-3">
                       <div className="card">
                         <img
                           src="https://i.ibb.co/DWCKcs5/Screenshot-2024-05-17-205930.png"

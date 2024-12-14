@@ -49,10 +49,10 @@ function App() {
                     Some of My Projects
                   </h2>
                   <div className="row">
-                  <div className="col-md-3">
+                    <div className="col-md-3">
                       <div className="card">
                         <img
-                         src={UsKidsProjectImage}
+                          src={UsKidsProjectImage}
                           className="card-img-top"
                           alt="Project 1"
                         />
@@ -70,7 +70,9 @@ function App() {
                           </p>
                           <div className="d-flex justify-content-center">
                             <a
-                              href="/serenity-scribe"
+                              href="https://rockumentary-vite.vercel.app/"
+                              target="_blank"
+                              rel="noopener noreferrer"
                               className="btn btn-primary"
                             >
                               Learn More

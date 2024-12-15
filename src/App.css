@@ -2,7 +2,7 @@
 .app.light {
   background-color: #f4f7fa;
   color: #333;
-  background-image: url('/images/Background.webp'); /* Correct file path and extension */
+  background-image: url('./assets/images/Background.webp'); /* Relative path from App.css */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -35,7 +35,7 @@
 .app.dark {
   background: linear-gradient(to bottom, #1a1a1a, #262626);
   color: #f1f1f1;
-  background-image: url('/images/Background.webp'); /* Correct file path and extension */
+  background-image: url('./assets/images/Background.webp'); /* Relative path from App.css */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

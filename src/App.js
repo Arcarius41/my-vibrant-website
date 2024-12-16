@@ -48,8 +48,8 @@ function App() {
                   <h2 className="text-center project-heading">
                     Some of My Projects
                   </h2>
-                  <div className="row">
-                    <div className="col-md-3">
+                  <div className="row project-row">
+                    <div className="col-lg-3 col-md-6">
                       <div className="card">
                         <img
                           src={UsKidsProjectImage}
@@ -57,16 +57,12 @@ function App() {
                           alt="Project 1"
                         />
                         <div className="card-body">
-                          <h5 className="card-title">
-                            Rockumentary
-                          </h5>
+                          <h5 className="card-title">Rockumentary</h5>
                           <h6 className="card-title">React+Shopify Embed</h6>
                           <p className="card-text">
-                            Platform that allows users to record their daily
-                            moods and journal entries. It aims to help users
-                            track their emotional well-being over time, offering
-                            insights and affirmations to encourage positive
-                            mental health practices.
+                            Dive into the story behind the music with this interactive work in progress. Featuring exclusive content,
+                             an embedded merchandise store, YouTube integration, Instagram embeds, links to social media channels,
+                              and a sleek, responsive design powered by React and Shopify.
                           </p>
                           <div className="d-flex justify-content-center">
                             <a
@@ -75,24 +71,22 @@ function App() {
                               rel="noopener noreferrer"
                               className="btn btn-primary"
                             >
-                              Learn More
+                              Sneak Peek
                             </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                       <div className="card">
                         <img
                           src="https://i.ibb.co/ws9dY0B/Screenshot-2024-06-15-serinityscribe-home-page.png"
                           className="card-img-top"
-                          alt="Project 1"
+                          alt="Project 2"
                         />
                         <div className="card-body">
-                          <h5 className="card-title">
-                            Journaling App - Serenity Scribe
-                          </h5>
-                          <h6 className="card-title">Full-Stack</h6>
+                          <h5 className="card-title">Serenity Scribe</h5>
+                          <h6 className="card-title">A Full-Stack Journaling App</h6>
                           <p className="card-text">
                             Platform that allows users to record their daily
                             moods and journal entries. It aims to help users
@@ -111,19 +105,19 @@ function App() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                       <div className="card">
                         <img
                           src="https://i.ibb.co/GvVmbb9/Here-Is-Looking-At-U.jpg"
                           className="card-img-top"
-                          alt="Project 2"
+                          alt="Project 3"
                         />
                         <div className="card-body">
                           <h5 className="card-title">My Vibrant Website</h5>
                           <p className="card-text">
                             You are test driving it right now. A personal
-                            website showcasing my web development skills
-                            and projects. Built with React for a dynamic UI,
+                            website showcasing my web development skills and
+                            projects. Built with React for a dynamic UI,
                             Bootstrap for modern styling, and React Router for
                             seamless navigation. It features light and dark
                             modes with persistent state and accessibility
@@ -142,12 +136,12 @@ function App() {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-6">
                       <div className="card">
                         <img
                           src="https://i.ibb.co/DWCKcs5/Screenshot-2024-05-17-205930.png"
                           className="card-img-top"
-                          alt="Project 3"
+                          alt="Project 4"
                         />
                         <div className="card-body">
                           <h5 className="card-title">Java Application</h5>
@@ -156,8 +150,8 @@ function App() {
                             for managing classrooms, teachers, and students. It
                             features user input handling, object-oriented
                             design, and report generation, demonstrating
-                            fundamental programming skills ideal for junior
-                            developers and recruiter showcases.
+                            fundamental programming skills ideal for a junior
+                            developer.
                           </p>
                           <div className="d-flex justify-content-center">
                             <a

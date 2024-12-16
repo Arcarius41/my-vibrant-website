@@ -2,7 +2,7 @@
 .app.light {
   background-color: #f4f7fa;
   color: #333;
-  background-image: url('./assets/images/Background.webp'); /* Relative path from App.css */
+  background-image: url('./assets/images/lightBackgroundHiRes.jpeg'); /* Relative path from App.css */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,6 +68,22 @@
   height: auto; /* Allow height to adapt to the image */
   margin: 20px auto; /* Add consistent spacing */
 }
+
+.project-heading {
+  color: #34d0fb; /* Base text color */
+  text-shadow: 
+    1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow closer to the text */
+  font-weight: bold; /* Optional: Make the text bolder */
+  font-size: 2rem; /* Adjust as needed */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+
+}
+
+
+
+
 
 .card {
   border: none;

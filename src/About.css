@@ -18,4 +18,30 @@
     height: 150px;
     object-fit: cover;
   }
-  
+  /* Add a background overlay for text sections */
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff; /* Light text for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Make headings pop */
+h2 {  color: #34d0fb; /* Bright accent color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow */}
+h3 {
+  color: #ffffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+}
+
+/* Add a glow effect to skills badges */
+.badge {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.badge:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}

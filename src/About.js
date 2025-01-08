@@ -7,7 +7,7 @@ function About() {
   return (
     <div className="container py-5">
       <div className="row">
-        <div className="col-md-6">
+        <div className="col-md-6 text-overlay">
           <h2 className="text-center">Scott B Bowman</h2>
           <p>
             Hello! I'm a passionate web developer with a strong background in

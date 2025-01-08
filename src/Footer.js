@@ -56,7 +56,7 @@ function Footer() {
         </div>
       </div>
       <div className="text-center p-3 bg-dark text-white">
-        © 2024 Scott B Bowman
+        © 2025 Scott B Bowman
       </div>
     </footer>
   );

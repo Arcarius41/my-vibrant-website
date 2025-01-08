@@ -28,3 +28,9 @@
   margin-top: 20px;
   font-weight: bold;
 }
+h2 {  color: #34d0fb; /* Bright accent color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow */}
+.label.form-label{
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+}

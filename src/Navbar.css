@@ -1,0 +1,18 @@
+.navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    max-width: 300px; /* Optional: Adjust width for better appearance */
+    margin: auto; /* Center align for mobile view */
+  }
+  
+  .navbar-nav {
+    text-align: center; /* Center align menu items */
+  }
+  
+  @media (min-width: 992px) {
+    /* Remove background for larger screens (non-collapsed) */
+    .navbar-collapse {
+      background-color: transparent;
+      max-width: none;
+    }
+  }
+  

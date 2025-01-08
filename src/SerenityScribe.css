@@ -1,14 +1,72 @@
-/* src/SerenityScribe.css */
-.project-details {
-    margin-top: 20px;
+/* Container adjustments */
+.container {
+  max-width: 900px; /* Limit maximum width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px; /* Add padding for spacing */
+}
+
+/* Single Overlay covering all content */
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
+  color: #fff; /* Light text for readability */
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto; /* Adds space above and below */
+}
+
+/* Heading adjustments */
+h2,
+h3 {
+  margin-bottom: 20px;
+  text-align: center; /* Center headings */
+  color: #34d0fb; /* React logo-like blue */
+}
+
+/* Project Details */
+.project-details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.project-details a {
+  color: #61dafb; /* Light blue for links */
+  text-decoration: none;
+}
+
+.project-details a:hover {
+  text-decoration: underline;
+}
+
+/* Photo Gallery adjustments */
+.image-gallery {
+  margin-top: 20px;
+}
+
+.image-gallery img {
+  border-radius: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px; /* Reduce padding for smaller screens */
   }
-  
-  .project-details h3 {
-    margin-top: 20px;
+
+  .text-overlay {
+    padding: 15px;
   }
-  
-  .project-details ul {
-    list-style-type: disc;
-    padding-left: 20px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 5px; /* Further reduce padding for very small screens */
   }
-  
+
+  .text-overlay {
+    padding: 10px;
+  }
+
+  .image-gallery img {
+    width: 100%;
+  }
+}

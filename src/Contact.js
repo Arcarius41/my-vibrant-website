@@ -42,7 +42,7 @@ const Contact = () => {
 
   return (
     <div className="contact-section">
-      <div className="container">
+      <div className="container text-overlay p-4 rounded">
         <h2 className="text-center text- ">Contact Me</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">

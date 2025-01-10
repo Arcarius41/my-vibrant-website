@@ -115,7 +115,7 @@ function SerenityScribe() {
       </div>
       <div className="row mt-5">
         <div className="col-12">
-          <h3 className="text-center">Photo Gallery</h3>
+          <h3 className="text-center text-overlay p-4 rounded">Photo Gallery</h3>
           <div className="d-flex justify-content-center flex-wrap">
             <ImageGallery items={images} />
           </div>
